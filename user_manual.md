@@ -1,10 +1,10 @@
 # Orkiestracja kontenerów z Docker Swarm i Compose - insrukcja uczestnika
 
-[Zaloguj się na host swarm master w swoim klastrze](#Zaloguj)
-[Sprawdź czy klaster jest uruchomiony i wszystkie nody są dostępne](#blabal)
-[Uruchom usługę Wordpress w klastrze](#Uruchom)
+1. [Zaloguj się na host swarm master w swoim klastrze](#logowanie)
+2. [Sprawdź czy klaster jest uruchomiony i wszystkie nody są dostępne](#weryfikacja-klaster)
+3. [Uruchom usługę Wordpress w klastrze](#usluga-uruchomienie)
 
-
+<a id='logowanie'/>
 ## Zaloguj się na host swarm master w swoim klastrze
 
 - FQDN: 
@@ -16,7 +16,7 @@
 - Login: sdcuser
 
 
-
+<a id='weryfikacja-klaster'/>
 ## Sprawdź czy klaster jest uruchomiony i wszystkie nody są dostępne 
 
 ```
@@ -24,7 +24,7 @@ docker node list
 ```
 
 
-
+<a id='usluga-uruchomienie'/>
 ## Uruchom usługę Wordpress w klastrze
 
 1. Na Swarm masterze załóż katalog na projekt (nazwa może być dowona) i skopiuj do niego plik docker-compose.yml
