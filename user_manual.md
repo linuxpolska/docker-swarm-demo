@@ -4,7 +4,7 @@
 2. [Sprawdź czy klaster jest uruchomiony i wszystkie nody są dostępne](#weryfikacja-klaster)
 3. [Uruchom usługę Wordpress w klastrze](#usluga-uruchomienie)
 
-<a id='logowanie'/>
+<div id='logowanie'/>
 ## Zaloguj się na host swarm master w swoim klastrze
 
 - FQDN: 
@@ -16,7 +16,7 @@
 - Login: sdcuser
 
 
-<a id='weryfikacja-klaster'/>
+<div id='weryfikacja-klaster'/>
 ## Sprawdź czy klaster jest uruchomiony i wszystkie nody są dostępne 
 
 ```
@@ -24,7 +24,7 @@ docker node list
 ```
 
 
-<a id='usluga-uruchomienie'/>
+<div id='usluga-uruchomienie'/>
 ## Uruchom usługę Wordpress w klastrze
 
 1. Na Swarm masterze załóż katalog na projekt (nazwa może być dowona) i skopiuj do niego plik docker-compose.yml
