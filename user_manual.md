@@ -1,9 +1,7 @@
 # Orkiestracja kontenerów z Docker Swarm i Compose - insrukcja uczestnika
 
 [Zaloguj się na host swarm master w swoim klastrze](#Zaloguj)
-
 [Sprawdź czy klaster jest uruchomiony i wszystkie nody są dostępne](#blabal)
-
 [Uruchom usługę Wordpress w klastrze](#Uruchom)
 
 
