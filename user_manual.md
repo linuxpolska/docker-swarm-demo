@@ -8,8 +8,8 @@
 ## Zaloguj się na host swarm master w swoim klastrze <a id='logowanie'/>
 Każdemu uczestnikowi został przydzielony unikatowy numer, który należy wpisać odpowiednio
 
-- FQDN: 
-  Uczestnicy nr. 01-24: sdclab\<NUMER>-master.eastus2.cloudapp.azure.com
+- FQDN:<br/>
+  Uczestnicy nr. 01-24: sdclab\<NUMER>-master.eastus2.cloudapp.azure.com<br/>
   Uczestnicy nr. 25-50: sdclab\<NUMER>-master.eastus.cloudapp.azure.com
 - Klucz prywatny: swarm_master
 - Login: sdcuser
