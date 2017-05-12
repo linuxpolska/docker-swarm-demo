@@ -3,6 +3,10 @@
 - [Zaloguj się na host swarm master w swoim klastrze](#logowanie)
 - [Sprawdź czy klaster jest uruchomiony i wszystkie nody są dostępne](#weryfikacja-klaster)
 - [Uruchom usługę Wordpress w klastrze](#usluga-uruchomienie)
+- [Z poziomu klastra sprawdź czy usługa działa](#usluga-weryfikacja-klaster)
+- [Sprawdź czy usługa jest dostępna w internecie](#usluga-weryfikacja-internet)
+- [Wyskaluj usługę Wordpress](#usluga-skalowanie)
+- [Usuń usługę](#usluga-usuniecie)
 
 
 ## Zaloguj się na host swarm master w swoim klastrze <a id='logowanie'/>
