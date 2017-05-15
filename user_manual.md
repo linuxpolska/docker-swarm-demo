@@ -28,7 +28,7 @@ docker node list
 
 ## Uruchom usługę Wordpress w klastrze <a id="usluga-uruchomienie"/>
 
-1. Na hoście swarm master załóż katalog na projekt (nazwa może być dowolna) i skopiuj do niego plik [docker-compose.yml](https://github.com/linuxpolska/docker-swarm-demo/blob/master/docker-compose.yml)
+1. Na hoście swarm master załóż katalog na projekt (nazwa może być dowolna) i skopiuj do niego plik [docker-compose.yml](https://raw.githubusercontent.com/linuxpolska/docker-swarm-demo/master/docker-compose.yml)
 2. W katalogu projektu utwórz dwa pliki:
    - db_passswd.txt - plik z hasłem do konta root do bazy danych
    - wordrpes.txt - plik z hasłem do konta wordpress do bazy danych
