@@ -30,18 +30,21 @@ docker node list
 
 ## Uruchom usługę Wordpress w klastrze <a id="usluga-uruchomienie"/>
 
-1. Na hoście swarm master załóż katalog na projekt (nazwa może być dowolna) i skopiuj do niego plik [docker-compose.yml](https://raw.githubusercontent.com/linuxpolska/docker-swarm-demo/master/docker-compose.yml)
+1. Na hoście swarm master załóż katalog na projekt (nazwa może być dowolna) i skopiuj do niego plik [docker-compose.yml](https://raw.githubusercontent.com/linuxpolska/docker-swarm-demo/master/docker-compose.yml).
     ```
     wget https://raw.githubusercontent.com/linuxpolska/docker-swarm-demo/master/docker-compose.yml
     ```
 2. W katalogu projektu utwórz dwa pliki:
-   - db_passswd.txt - plik z hasłem do konta root do bazy danych
-   - wordrpes.txt - plik z hasłem do konta wordpress do bazy danych
+   - db_root_password.txt - plik z hasłem do konta root do bazy danych
+   - db_password.txt - plik z hasłem do konta wordpress do bazy danych
 4. Uruchom usługę w klastrze wydając komendę
     ```
     docker stack deploy --compose-file docker-compose.yml wordpress
     ```
 ## Sprawdź czy usługa została uruchomiona na klastrze
+```
+docker service list
+```
 
 ## Sprawdź czy serwis wordpress jest dostępny w Internecie
 Otwórz w przeglądarce główną stronę wordpresa uruchomionego na Twoim klastrze. Główna strona Twojej usługi jest dostępna pod adresem: 
