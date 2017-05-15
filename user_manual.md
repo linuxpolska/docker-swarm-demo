@@ -1,4 +1,4 @@
-# Orkiestracja kontenerów z Docker Swarm i Compose - instrukcja uczestnika
+# Orkiestracja kontenerów z Docker Swarm i Compose - instrukcja dla uczestnika
 
 - [Zaloguj się na host swarm master w swoim klastrze](#logowanie)
 - [Sprawdź czy klaster jest uruchomiony i wszystkie nody są dostępne](#weryfikacja-klaster)
