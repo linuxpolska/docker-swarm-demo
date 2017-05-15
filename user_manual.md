@@ -31,13 +31,20 @@ docker node list
 
 ## Uruchom usługę Wordpress w klastrze <a id="usluga-uruchomienie"/>
 
-1. Na Swarm masterze załóż katalog na projekt (nazwa może być dowona) i skopiuj do niego plik docker-compose.yml
+1. Na hoście swarm master załóż katalog na projekt (nazwa może być dowolna) i skopiuj do niego plik docker-compose.yml
 2. W katalogu projektu utwórz dwa pliki:
    - db_passswd.txt - plik z hasłem do konta root do bazy danych
    - wordrpes.txt - plik z hasłem do konta wordpress do bazy danych
-3. W katalogu projektu zapisz plik docker-compose.yml. Plik jest dostępny w repozytorium warsztatów.
 4. Uruchom usługę w klastrze wydając komendę
     ```
     docker stack deploy --compose-file docker-compose.yml wordpress
     ```
+## Sprawdź czy usługa została uruchomiona na klastrze
+
+## Sprawdź czy serwis wordpress jest dostępny w Internecie
+
+## Wyskaluj usługę wordpress
+
+## Usuń usługę wordpress
+
 
