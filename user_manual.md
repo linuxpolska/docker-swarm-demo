@@ -39,9 +39,18 @@ docker node list
 ## Sprawdź czy usługa została uruchomiona na klastrze
 
 ## Sprawdź czy serwis wordpress jest dostępny w Internecie
+Otwórz w przeglądarce główną stronę wordpresa uruchomionego na Twoim klastrze. Główna strona Twojej usługi jest dostępna pod adresem: 
+- Uczestnicy nr. 01-24: http:\\sdclab\<NUMER\>.eastus2.cloudapp.azure.com
+- Uczestnicy nr. 25-50: http:\\sdclab\<NUMER\>.eastus.cloudapp.azure.com
 
-## Wyskaluj usługę wordpress
+## Wyskaluj aplikację wordpress_web
+Uruchom dodatkową instancję aplikacji wordpres_web na kolejnym workerze w Twoim klastrze.
+```
+docker service scale <service_name>=<containers_numbers>
+```
 
 ## Usuń usługę wordpress
-
+```
+docker stack rm wordpress
+```
 
