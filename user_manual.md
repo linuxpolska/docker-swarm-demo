@@ -46,7 +46,11 @@ Otwórz w przeglądarce główną stronę wordpresa uruchomionego na Twoim klast
 ## Wyskaluj aplikację wordpress_web
 Uruchom dodatkową instancję aplikacji wordpres_web na kolejnym workerze w Twoim klastrze.
 ```
-docker service scale <service_name>=<containers_numbers>
+docker service scale wordpress_web=2
+```
+Sprawdź czy instancja została uruchomiona w klastrze
+```
+docker service ps wordpress_web
 ```
 
 ## Usuń usługę wordpress
