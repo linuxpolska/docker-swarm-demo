@@ -45,6 +45,9 @@ docker node list
 ```
 docker service list
 ```
+```
+docker service ps wordpress
+```
 
 ## Sprawdź czy serwis wordpress jest dostępny w Internecie
 Otwórz w przeglądarce główną stronę wordpresa uruchomionego na Twoim klastrze. Główna strona Twojej usługi jest dostępna pod adresem: 
