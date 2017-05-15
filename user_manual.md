@@ -48,11 +48,21 @@ docker service list
 ```
 docker service ps wordpress
 ```
+```
+docker service inspect
+```
+```
+docker service logs wordpress_web
+docker service logs wordpress_db
+```
+
 
 ## Sprawdź czy serwis wordpress jest dostępny w Internecie
 Otwórz w przeglądarce główną stronę wordpresa uruchomionego na Twoim klastrze. Główna strona Twojej usługi jest dostępna pod adresem: 
 - Uczestnicy nr. 01-24: http:\/\/sdclab\<NUMER\>.eastus2.cloudapp.azure.com
 - Uczestnicy nr. 25-50: http:\/\/sdclab\<NUMER\>.eastus.cloudapp.azure.com
+
+Zainicjalizuj usługę wordpress korzystając z jej interface webowego.
 
 ## Wyskaluj aplikację wordpress_web
 Uruchom dodatkową instancję aplikacji wordpres_web na kolejnym workerze w Twoim klastrze.
@@ -60,6 +70,9 @@ Uruchom dodatkową instancję aplikacji wordpres_web na kolejnym workerze w Twoi
 docker service scale wordpress_web=2
 ```
 Sprawdź czy instancja została uruchomiona w klastrze
+```
+docker service ps wordpress_web
+````
 ```
 docker service ps wordpress_web
 ```
