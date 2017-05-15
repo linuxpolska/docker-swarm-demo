@@ -10,7 +10,9 @@
 
 
 ## Zaloguj się na host swarm master w swoim klastrze <a id='logowanie'/>
-Każdemu uczestnikowi został przydzielony unikatowy numer, który należy wpisać w adresie domenowym hosta swarm master. Ponżej znajdziesz informacje potrzebne do zalogowania się na swarm master w Twoim klastrze.
+Każdemu uczestnikowi został przydzielony unikatowy numer, który należy wpisać w adresie domenowym hosta swarm master.
+
+Informacje potrzebne do zalogowania się na swarm master w Twoim klastrze:
 
 - FQDN:
   - Uczestnicy nr. 01-24: sdclab\<NUMER>-master.eastus2.cloudapp.azure.com
