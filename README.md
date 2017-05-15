@@ -11,10 +11,11 @@
 
 ## Zaloguj się na host swarm master w swoim klastrze <a id='logowanie'/>
 
-Informacje i pliki potrzebne do zalogowania się na swarm master w Twoim klastrze:
+Do logowania użyj klucza prywatnego.
+
+Plik klucza i informacje potrzebne do zalogowania się na hoście swarm master w Twoim klastrze:
 
 - FQDN:
-    Każdemu uczestnikowi został przydzielony unikatowy numer, który należy wpisać w adresie domenowym hosta swarm master.
   - Uczestnicy nr. 01-24: sdclab\<NUMER>-master.eastus2.cloudapp.azure.com
   - Uczestnicy nr. 25-50: sdclab\<NUMER>-master.eastus.cloudapp.azure.com
 - [Klucz prywatny](https://raw.githubusercontent.com/linuxpolska/docker-swarm-demo/master/swarm_master) (hasło zostanie przekazane przez instruktora)
