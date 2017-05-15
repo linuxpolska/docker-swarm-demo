@@ -18,7 +18,7 @@ Plik klucza i informacje potrzebne do zalogowania się na hoście swarm master w
 - FQDN:
   - Uczestnicy nr. 01-24: sdclab\<NUMER>-master.eastus2.cloudapp.azure.com
   - Uczestnicy nr. 25-50: sdclab\<NUMER>-master.eastus.cloudapp.azure.com
-- [Klucz prywatny](https://gist.github.com/dkws/9ad258d599cae42b6e896543a2a05c26) (hasło zostanie przekazane przez instruktora)
+- [Klucz prywatny](https://gist.githubusercontent.com/dkws/9ad258d599cae42b6e896543a2a05c26/raw/13b55fbd9fafcc4406e8b605d3695c7a876de725/gistfile1.txt) (hasło zostanie przekazane przez instruktora)
 - Login: sdcuser
 
 
