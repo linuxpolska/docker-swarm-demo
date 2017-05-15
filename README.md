@@ -17,7 +17,7 @@ Informacje potrzebne do zalogowania się na swarm master w Twoim klastrze:
 - FQDN:
   - Uczestnicy nr. 01-24: sdclab\<NUMER>-master.eastus2.cloudapp.azure.com
   - Uczestnicy nr. 25-50: sdclab\<NUMER>-master.eastus.cloudapp.azure.com
-- Klucz prywatny: [swarm_master](#https://github.com/linuxpolska/docker-swarm-demo/edit/master/swarm_master) (hasło zostanie przekazane przez instruktora)
+- Klucz prywatny: [swarm_master](https://github.com/linuxpolska/docker-swarm-demo/edit/master/swarm_master) (hasło zostanie przekazane przez instruktora)
 - Login: sdcuser
 
 
