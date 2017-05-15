@@ -33,10 +33,10 @@ services:
 
 
 secrets:
-   db_password:
-     file: db_password.txt
    db_root_password:
      file: db_root_password.txt
+   db_password:
+     file: db_password.txt
 
 volumes:
     db_data:
