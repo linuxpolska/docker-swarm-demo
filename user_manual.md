@@ -37,7 +37,7 @@ docker node list
    - wordrpes.txt - plik z hasłem do konta wordpress do bazy danych
 3. W katalogu projektu zapisz plik docker-compose.yml. Plik jest dostępny w repozytorium warsztatów.
 4. Uruchom usługę w klastrze wydając komendę
-```
-docker stack deploy --compose-file docker-compose.yml wordpress
-```
+    ```
+    docker stack deploy --compose-file docker-compose.yml wordpress
+    ```
 
