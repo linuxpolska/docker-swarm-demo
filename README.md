@@ -36,9 +36,16 @@ docker node list
     ```
     wget https://raw.githubusercontent.com/linuxpolska/docker-swarm-demo/master/docker-compose.yml
     ```
-2. W katalogu projektu utwórz dwa pliki:
+2. W katalogu projektu utwórz:
    - db_root_password.txt - plik z hasłem do konta root do bazy danych
+    ```
+    echo tajnehaslo1 > db_root_password.txt
+    ```
    - db_password.txt - plik z hasłem do konta wordpress do bazy danych
+    ```
+    echo tajnehaslo2 > db_password.txt
+    ```
+
 4. Uruchom usługę w klastrze wydając komendę
     ```
     docker stack deploy --compose-file docker-compose.yml wordpress
@@ -64,7 +71,7 @@ Otwórz w przeglądarce główną stronę wordpresa uruchomionego na Twoim klast
 - Uczestnicy nr. 01-24: http:\/\/sdclab\<NUMER\>.eastus2.cloudapp.azure.com
 - Uczestnicy nr. 25-50: http:\/\/sdclab\<NUMER\>.eastus.cloudapp.azure.com
 
-Zainicjalizuj usługę wordpress korzystając z jej interface webowego.
+Zainicjalizuj serwis.
 
 ## Wyskaluj aplikację wordpress_web
 Uruchom dodatkową instancję aplikacji wordpres_web na kolejnym workerze w Twoim klastrze.
