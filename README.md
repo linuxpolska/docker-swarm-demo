@@ -18,7 +18,7 @@ Plik klucza i informacje potrzebne do zalogowania się na hoście swarm manager 
 - FQDN:
   - Uczestnicy nr. 01-24: sdclab\<NUMER>-master.eastus2.cloudapp.azure.com
   - Uczestnicy nr. 25-50: sdclab\<NUMER>-master.eastus.cloudapp.azure.com
-- [Klucz prywatny](https://www.dropbox.com/s/cup7vwtbvy8whqs/swarm_master_key?dl=0) Dostęp do klucza oraz sam klucz są zabezpieczone hasłami, które zostaną przekazane przez instruktora w trackie warsztatów.
+- [Klucz prywatny](https://www.dropbox.com/s/cup7vwtbvy8whqs/swarm_master_key?dl=0) Dostęp do klucza oraz sam klucz są zabezpieczone hasłami, które zostaną przekazane przez instruktora w trakcie warsztatów.
 - Login: sdcuser
 
 
