@@ -1,6 +1,6 @@
 # Orkiestracja kontenerów z Docker Swarm i Compose - instrukcja dla uczestnika
 
-- [Zaloguj się na host swarm master w swoim klastrze](#logowanie)
+- [Zaloguj się na host swarm manager w swoim klastrze](#logowanie)
 - [Sprawdź czy klaster jest uruchomiony i wszystkie nody są dostępne](#weryfikacja-klaster)
 - [Uruchom usługę Wordpress w klastrze](#usluga-uruchomienie)
 - [Z poziomu klastra sprawdź czy usługa działa](#usluga-weryfikacja-klaster)
@@ -9,11 +9,11 @@
 - [Usuń usługę](#usluga-usuniecie)
 
 
-## Zaloguj się na host swarm master w swoim klastrze <a id='logowanie'/>
+## Zaloguj się na host swarm manager w swoim klastrze <a id='logowanie'/>
 
 Do logowania użyj klucza prywatnego.
 
-Plik klucza i informacje potrzebne do zalogowania się na hoście swarm master w Twoim klastrze:
+Plik klucza i informacje potrzebne do zalogowania się na hoście swarm manager  w Twoim klastrze:
 
 - FQDN:
   - Uczestnicy nr. 01-24: sdclab\<NUMER>-master.eastus2.cloudapp.azure.com
@@ -32,7 +32,7 @@ docker node list
 
 ## Uruchom usługę Wordpress w klastrze <a id="usluga-uruchomienie"/>
 
-1. Na hoście swarm master załóż katalog na projekt (nazwa może być dowolna) i skopiuj do niego plik [docker-compose.yml](https://raw.githubusercontent.com/linuxpolska/docker-swarm-demo/master/docker-compose.yml).
+1. Na hoście swarm manager załóż katalog na projekt (nazwa może być dowolna) i skopiuj do niego plik [docker-compose.yml](https://raw.githubusercontent.com/linuxpolska/docker-swarm-demo/master/docker-compose.yml).
     ```
     wget https://raw.githubusercontent.com/linuxpolska/docker-swarm-demo/master/docker-compose.yml
     ```
