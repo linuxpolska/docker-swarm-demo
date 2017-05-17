@@ -76,7 +76,7 @@ Zainicjalizuj serwis.
 ## Wyskaluj aplikację wordpress_web
 Uruchom dodatkową instancję aplikacji wordpres_web na kolejnym workerze w Twoim klastrze.
 ```
-docker service scale wordpress_web
+docker service scale wordpress_web=2
 ```
 
 Sprawdź czy instancja została uruchomiona w klastrze
